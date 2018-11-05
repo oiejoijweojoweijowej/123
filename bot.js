@@ -24,6 +24,7 @@ bot1.on('ready', () => {
   console.log('╚[════════════]╝')
   console.log('')
   console.log('')
+bot1.user.setActivity(`F4res-Bots`, {type : "WATCHING"})
 });
  
 
@@ -87,6 +88,9 @@ bot1.login(process.env.FB1);
 
 
 const bot2 = new Discord.Client();
+bot2.on(`ready`, () => {
+bot1.user.setActivity(`F4res-Bots`, {type : "WATCHING"})
+});
  bot2.on('message', message => {
   
   if (message.content === `f-d`) {
@@ -142,6 +146,9 @@ bot2.login(process.env.FB2);
 
 
 const bot3 = new Discord.Client();
+bot3.on(`ready`, () => {
+bot1.user.setActivity(`F4res-Bots`, {type : "WATCHING"})
+});
  bot3.on('message', message => {
   
   if (message.content === 'f-d') {
