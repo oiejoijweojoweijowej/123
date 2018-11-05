@@ -31,7 +31,7 @@ bot1.user.setActivity(`F4res-Bots`, {type : "WATCHING"})
  bot1.on('message', message => {
   
   if (message.content === 'f-d') {
-    if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+    if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 
 message.channel.send('#daily')
 }
@@ -41,7 +41,7 @@ message.channel.send('#daily')
  bot1.on('message', message => {
   
   if (message.content === 'f-r') {
-    if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+    if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 
 message.channel.send('#rep <@505101712839671838>')
 }
@@ -50,7 +50,7 @@ message.channel.send('#rep <@505101712839671838>')
 
 bot1.on('message', message => {
 if (message.content === '!spam') {
-  if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+  if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -70,7 +70,7 @@ bot1.on('message', message => {
   let args = message.content.split(" ").slice(1);
   if(!args) return message.channel.send(`fs1 <words>`);
 if (command == "fs1") {
-  if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+  if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 message.channel.send(args.join("  "))
     message.delete();
   }
@@ -94,7 +94,7 @@ bot1.user.setActivity(`F4res-Bots`, {type : "WATCHING"})
  bot2.on('message', message => {
   
   if (message.content === `f-d`) {
-    if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+    if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 
 message.channel.send('#daily')
 }
@@ -103,7 +103,7 @@ message.channel.send('#daily')
  bot2.on('message', message => {
   
   if (message.content === 'f-r') {
-    if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+    if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 
 message.channel.send('#rep <@505101712839671838>')
 }
@@ -111,7 +111,7 @@ message.channel.send('#rep <@505101712839671838>')
 
 bot2.on('message', message => {
 if (message.content === '!spam') {
-  if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+  if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -132,7 +132,7 @@ bot2.on('message', message => {
   let args = message.content.split(" ").slice(1);
   if(!args) return message.channel.send(`fs2 <words>`);
 if (command == "fs2") {
-  if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+  if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 message.channel.send(args.join("  "))
     message.delete();
   }
@@ -152,7 +152,7 @@ bot1.user.setActivity(`F4res-Bots`, {type : "WATCHING"})
  bot3.on('message', message => {
   
   if (message.content === 'f-d') {
-    if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+    if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 
 message.channel.send('#daily')
 }
@@ -161,7 +161,7 @@ message.channel.send('#daily')
  bot3.on('message', message => {
   
   if (message.content === 'f-r') {
-    if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+    if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 
 message.channel.send('#rep <@505101712839671838>')
 }
@@ -169,7 +169,7 @@ message.channel.send('#rep <@505101712839671838>')
 
 bot3.on('message', message => {
 if (message.content === '!spam') {
-  if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+  if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -191,7 +191,7 @@ bot3.on('message', message => {
   let args = message.content.split(" ").slice(1);
   if(!args) return message.channel.send(`fs3 <words>`);
 if (command == "fs3") {
-  if(!message.author.id == "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
+  if(!message.author.id === "505101712839671838") return message.reply(`Just <@505101712839671838> Can use us xD!`);
 message.channel.send(args.join("  "))
     message.delete();
   }
